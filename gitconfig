@@ -1,0 +1,20 @@
+[user]
+	name = Robin Bentley
+	email = robinbentley@me.com
+
+[core]
+    editor = vim
+
+[color]
+    ui = always
+
+[alias]
+    s = status
+    c = commit
+    a = add -A
+    ch = checkout
+[mergetool]
+	keepBackup = true
+
+[cola]
+	tabwidth = 2
