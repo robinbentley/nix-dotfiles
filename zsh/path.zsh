@@ -10,10 +10,10 @@ if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 # make virtualenv easier with virtualenvwrapper
 # =====================================================
 export WORKON_HOME=$HOME/.virtualenvs
-export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages -p /usr/bin/python3'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=`which python`
 if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
     source /usr/local/bin/virtualenvwrapper.sh
 else

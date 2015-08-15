@@ -19,7 +19,6 @@ function prompt_git() {
 
         git update-index --really-refresh  -q &>/dev/null
 
-
         branchName="$(git symbolic-ref --quiet --short HEAD 2> /dev/null || \
                           git rev-parse --short HEAD 2> /dev/null || \
                           echo "(unknown)")"
