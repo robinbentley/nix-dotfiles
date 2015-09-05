@@ -18,3 +18,6 @@
 
 [cola]
 	tabwidth = 2
+	fontdiff = Inconsolata-g,9,-1,5,50,0,0,0,0,0
+[gui]
+	editor = sub

@@ -26,6 +26,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'kien/ctrlp.vim'
 Bundle 'chriskempson/base16-vim'
 Bundle 'mattn/emmet-vim'
+Bundle 'editorconfig/editorconfig-vim'
 
 filetype plugin indent on                   " turn filetype on again
 
@@ -53,6 +54,8 @@ set splitbelow                              " open splits below
 set listchars=tab:>-,trail:·,extends:>
 set list                                    " show listchars
 
+set showmatch
+
 
 " =====================================================
 " Mappings
@@ -77,7 +80,7 @@ nnoremap <C-h> <C-w>h
 " =====================================================
 
 " emmet
-let g:user_emmet_leader_key='<leader><Tab>'
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " airline
 set laststatus=2                            " Show airline erry time
