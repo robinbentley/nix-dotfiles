@@ -25,3 +25,9 @@ fi
 # make sure /usr/local/bin is always before /usr/bin
 # =====================================================
 export PATH=/usr/local/bin:$PATH
+
+
+# =====================================================
+# Adding local node + npm to path to stop using 'sudo'
+# =====================================================
+export PATH=$HOME/local/bin:$PATH
