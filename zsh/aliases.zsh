@@ -16,3 +16,12 @@ alias fgrep='fgrep --color=auto'
 
 # network
 alias ping='ping -c 5'
+
+# django manage commands
+alias djsyncdb="python manage.py syncdb"
+alias djmake="python manage.py makemigrations"
+alias djserve="python manage.py runserver"
+alias djmigrate="python manage.py migrate"
+alias djapp="python manage.py startapp"
+alias djproject="python manage.py startproject"
+alias djtest="python manage.py test"
