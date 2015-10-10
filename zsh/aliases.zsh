@@ -28,3 +28,6 @@ alias djmigrate="python manage.py migrate"
 alias djapp="python manage.py startapp"
 alias djproject="python manage.py startproject"
 alias djtest="python manage.py test"
+
+# dev servers
+alias pyserve="python -m SimpleHTTPServer 3030"
