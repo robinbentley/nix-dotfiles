@@ -5,9 +5,6 @@ colors
 # allow functions in the prompt
 setopt prompt_subst
 
-# grep colors
-export GREP_OPTIONS='--color=auto'
-export GREP_COLOR='1;31;40'
 
 # =====================================================
 # git prompt
