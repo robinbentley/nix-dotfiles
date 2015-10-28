@@ -13,9 +13,9 @@ export WORKON_HOME=$HOME/.virtualenvs
 export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages -p /usr/bin/python3'
 export PIP_VIRTUALENV_BASE=$WORKON_HOME
 export PIP_RESPECT_VIRTUALENV=true
-export VIRTUALENVWRAPPER_PYTHON=`which python`
-if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
-    source /usr/local/bin/virtualenvwrapper.sh
+#export VIRTUALENVWRAPPER_PYTHON=`which python`
+if [[ -r ~/.local/bin/virtualenvwrapper.sh ]]; then
+    source ~/.local/bin/virtualenvwrapper.sh
 else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
@@ -23,6 +23,7 @@ fi
 # =====================================================
 # Adding local node + npm to path to stop using 'sudo'
 # =====================================================
+export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/local/bin:$PATH
 
 # =====================================================
