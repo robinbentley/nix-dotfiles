@@ -39,6 +39,7 @@ filetype plugin indent on                   " turn filetype on again
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
+let base16colorspace=256                    " Access colors present in 256 colorspace
 colorscheme base16-eighties
 
 set nowrap                                  " don't wrap long lines
