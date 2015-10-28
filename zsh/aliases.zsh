@@ -8,9 +8,10 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ~='cd ~'
 
-# updating
+# updating & installing
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
+alias install='sudo apt-get install'
 
 # grep
 alias grep='grep --color=auto'

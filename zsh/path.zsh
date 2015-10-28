@@ -24,7 +24,7 @@ fi
 # Adding local node + npm to path to stop using 'sudo'
 # =====================================================
 export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/local/bin:$PATH
+export PATH=$HOME/.npm-global/bin:$PATH
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
