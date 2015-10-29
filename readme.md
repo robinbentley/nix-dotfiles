@@ -20,3 +20,6 @@ TODO
 ## Actions
     #change shell to zsh once it's installed
     chsh -s /bin/zsh
+
+    #change default terminal to terminator
+    gsettings set org.gnome.desktop.default-applications.terminal exec 'terminator'
