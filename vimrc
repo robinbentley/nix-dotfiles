@@ -28,6 +28,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'fatih/vim-go'
+Plugin 'Valloric/YouCompleteMe'
 
 filetype plugin indent on                   " turn filetype on again
 

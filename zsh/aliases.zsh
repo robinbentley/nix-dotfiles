@@ -21,6 +21,10 @@ alias fgrep='fgrep --color=auto'
 # network
 alias ping='ping -c 5'
 
+# applications
+alias sub='subl'
+alias open='nautilus'
+
 # django manage commands
 alias djsyncdb="python manage.py syncdb"
 alias djmake="python manage.py makemigrations"
