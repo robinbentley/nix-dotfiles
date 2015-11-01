@@ -21,8 +21,10 @@ else
 fi
 
 # =====================================================
-# Adding local node + npm to path to stop using 'sudo'
+# Adding local node + npm to path to stop sudo problems
+# Move npm global installs to user home
 # =====================================================
+export N_PREFIX=$HOME/.local
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$HOME/.npm-global/bin:$PATH
 
