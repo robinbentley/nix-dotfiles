@@ -5,9 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Ember CLI Snippets",
 		"Emmet",
-		"GitGutter",
+		"GitGutter-Edge",
+		"GitSavvy",
+		"Handlebars",
 		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"Theme - Spacegray"
 	]
 }
