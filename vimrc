@@ -27,7 +27,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'fatih/vim-go'
 Plugin 'Valloric/YouCompleteMe'
 
 filetype plugin indent on                   " turn filetype on again
@@ -58,6 +57,7 @@ set listchars=tab:>-,trail:·,extends:>
 set list                                    " show listchars
 
 set showmatch
+hi MatchParen cterm=bold ctermbg=magenta ctermfg=black
 
 
 " =====================================================
