@@ -12,6 +12,10 @@
 		"._*",
 		"*.pyc"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal", "draw_active"
+	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
