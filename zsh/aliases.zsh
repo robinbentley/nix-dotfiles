@@ -25,6 +25,9 @@ alias ping='ping -c 5'
 alias sub='subl'
 alias open='nautilus'
 
+# editing hosts file for virtualhosts/vagrant etc
+alias hosts='sudo vim /etc/hosts'
+
 # django manage commands
 alias djsyncdb="python manage.py syncdb"
 alias djmake="python manage.py makemigrations"
