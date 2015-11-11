@@ -92,7 +92,7 @@ set noshowmode                              " Hide default mode
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
-
+let NERDTreeShowHidden=1                    " Show dot files in tree
 
 " =====================================================
 " Functions
