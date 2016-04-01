@@ -12,10 +12,6 @@
 		"._*",
 		"*.pyc"
 	],
-	"indent_guide_options":
-	[
-		"draw_normal", "draw_active"
-	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
@@ -24,20 +20,26 @@
 		"storage/",
 		".idea",
 		"__pycache__",
-		"node_modules/*"
+		"node_modules/*",
+		"tmp/"
 	],
 	"font_face": "Inconsolata-g",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 11,
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,

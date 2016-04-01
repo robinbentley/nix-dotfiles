@@ -1,7 +1,9 @@
 [global_config]
+  dbus = True
   geometry_hinting = False
   title_transmit_bg_color = "#2d2d2d"
-  dbus = True
+  always_split_with_profile = True
+  inactive_color_offset = 0.87
 [keybindings]
 [profiles]
   [[default]]
@@ -12,7 +14,7 @@
     cursor_color = "#d3d0c8"
     foreground_color = "#d3d0c8"
     show_titlebar = False
-    font = Ubuntu Mono 12
+    font = Ubuntu Mono 14
     background_color = "#2d2d2d"
   [[New Profile]]
     background_image = None

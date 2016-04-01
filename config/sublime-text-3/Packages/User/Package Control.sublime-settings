@@ -5,6 +5,9 @@
 	],
 	"installed_packages":
 	[
+		"Anaconda",
+		"ApacheConf.tmLanguage",
+		"Djaneiro",
 		"Ember CLI Snippets",
 		"Emmet",
 		"GitGutter-Edge",
@@ -12,7 +15,9 @@
 		"Handlebars",
 		"JavaScriptNext - ES6 Syntax",
 		"Package Control",
+		"Sass",
 		"SideBarEnhancements",
+		"Status Bar File Size",
 		"SublimeCodeIntel",
 		"Theme - Spacegray"
 	]
