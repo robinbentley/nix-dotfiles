@@ -32,3 +32,8 @@ export PATH=$HOME/.npm-global/bin:$PATH
 # make sure /usr/local/bin is always before /usr/bin
 # =====================================================
 export PATH=/usr/local/bin:$PATH
+
+# =====================================================
+# adding linuxbrew to path
+# =====================================================
+export PATH=$HOME/.linuxbrew/bin:$PATH

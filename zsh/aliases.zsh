@@ -1,5 +1,5 @@
 # general
-alias ll='ls -la --color=auto'
+alias ll='ls -lah --color=auto'
 alias tree='tree -L 2'
 alias cl='clear'
 
@@ -12,6 +12,8 @@ alias ~='cd ~'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias install='sudo apt-get install'
+alias autoremove='sudo apt-get auto-remove && sudo apt-get auto-clean'
+alias distupgrade='sudo apt-get dist-upgrade'
 
 # grep
 alias grep='grep --color=auto'
