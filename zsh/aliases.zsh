@@ -12,7 +12,7 @@ alias ~='cd ~'
 alias update='sudo apt-get update'
 alias upgrade='sudo apt-get update && sudo apt-get upgrade'
 alias install='sudo apt-get install'
-alias autoremove='sudo apt-get auto-remove && sudo apt-get auto-clean'
+alias autoremove='sudo apt-get autoremove && sudo apt-get autoclean'
 alias distupgrade='sudo apt-get dist-upgrade'
 
 # grep
