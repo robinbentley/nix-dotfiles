@@ -9,11 +9,12 @@ alias ...='cd ../..'
 alias ~='cd ~'
 
 # updating & installing
-alias update='sudo apt-get update'
-alias upgrade='sudo apt-get update && sudo apt-get upgrade'
-alias install='sudo apt-get install'
-alias autoremove='sudo apt-get autoremove && sudo apt-get autoclean'
-alias distupgrade='sudo apt-get dist-upgrade'
+alias update='sudo apt-get update -y'
+alias upgrade='sudo apt-get update -y && sudo apt-get upgrade -y'
+alias install='sudo apt-get install -y'
+alias autoremove='sudo apt-get autoremove -y && sudo apt-get autoclean -y'
+alias distupgrade='sudo apt-get dist-upgrade -y'
+alias remove='sudo apt-get remove --purge -y'
 
 # grep
 alias grep='grep --color=auto'
