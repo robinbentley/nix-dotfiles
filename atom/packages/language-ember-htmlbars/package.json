@@ -1,0 +1,34 @@
+{
+  "name": "language-ember-htmlbars",
+  "version": "0.3.0",
+  "description": "Ember HTMLBars language support in Atom",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "http://atom.github.io/language-ember-htmlbars",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmurphyau/language-ember-htmlbars.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmurphyau/language-ember-htmlbars/issues"
+  },
+  "readme": "# Ember HTMLBars language support in Atom\n\nAdds syntax highlighting for Ember's HTMLBars templates to Atom.\n\nOriginally sourced from [`atom/language-html`](http://github.com/atom/language-html).\n\n`grammers/html-htmlbars.cson` is a HTMLBars compatible version of `atom/language-html` which is used to provide better compatibility.\n\n![Screenshot](https://raw.githubusercontent.com/jmurphyau/language-ember-htmlbars/master/screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "_id": "language-ember-htmlbars@0.3.0",
+  "_shasum": "953d2cdec18d99fce46977660f04d313c3180aa0",
+  "_resolved": "file:../d-116527-12058-e647v8/package.tgz",
+  "_from": "../d-116527-12058-e647v8/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,8 @@
+"*":
+  core:
+    themes: [
+      "one-dark-ui"
+      "base16-ocean-dark-syntax-theme"
+    ]
+  welcome:
+    showOnStartup: false

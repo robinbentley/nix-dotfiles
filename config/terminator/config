@@ -1,30 +1,30 @@
 [global_config]
+  always_split_with_profile = True
   dbus = True
   geometry_hinting = False
-  title_transmit_bg_color = "#2d2d2d"
-  always_split_with_profile = True
   inactive_color_offset = 0.87
+  title_transmit_bg_color = "#2d2d2d"
 [keybindings]
-[profiles]
-  [[default]]
-    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
-    background_image = None
-    scrollback_lines = 5000
-    use_system_font = False
-    cursor_color = "#d3d0c8"
-    foreground_color = "#d3d0c8"
-    show_titlebar = False
-    font = Ubuntu Mono 14
-    background_color = "#2d2d2d"
-  [[New Profile]]
-    background_image = None
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
       profile = default
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#2d2d2d"
+    background_image = None
+    cursor_color = "#d3d0c8"
+    font = Ubuntu Mono 14
+    foreground_color = "#d3d0c8"
+    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
+    scrollback_lines = 5000
+    show_titlebar = False
+    use_system_font = False
+  [[New Profile]]
+    background_image = None

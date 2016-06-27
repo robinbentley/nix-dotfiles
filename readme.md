@@ -15,7 +15,7 @@ TODO
     ln -fs ~/dotfiles/vim ~/.vim
     ln -fs ~/dotfiles/vimrc ~/.vimrc
     ln -fs ~/dotfiles/gvimrc ~/.gvimrc
-    ln -fs ~/dotfiles/weechat ~/.weechat
+    ln -sf ~/dotfiles/atom ~/.atom
 
 ## Actions
     #change shell to zsh once it's installed
