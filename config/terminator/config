@@ -20,7 +20,7 @@
     background_color = "#2d2d2d"
     background_image = None
     cursor_color = "#d3d0c8"
-    font = Ubuntu Mono 14
+    font = Inconsolata-g Medium 15
     foreground_color = "#d3d0c8"
     palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
     scrollback_lines = 5000
