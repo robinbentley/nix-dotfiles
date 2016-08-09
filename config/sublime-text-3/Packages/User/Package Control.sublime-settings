@@ -6,19 +6,14 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
-		"Anaconda",
 		"ApacheConf.tmLanguage",
 		"Babel",
 		"Boxy Theme",
 		"Color Highlighter",
-		"Djaneiro",
 		"Emmet",
 		"GitGutter-Edge",
 		"GitSavvy",
 		"Handlebars",
-		"Jade",
-		"JavaScriptNext - ES6 Syntax",
-		"Materialize",
 		"Package Control",
 		"Sass",
 		"ScopeHunter",
@@ -27,8 +22,6 @@
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
-		"Theme - Cobalt2",
-		"Theme - Spacegray"
+		"SublimeLinter-contrib-eslint"
 	]
 }
