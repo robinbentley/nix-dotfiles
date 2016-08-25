@@ -19,7 +19,9 @@
   [[default]]
     background_color = "#2d2d2d"
     background_image = None
+    cursor_blink = False
     cursor_color = "#d3d0c8"
+    cursor_shape = underline
     font = Inconsolata-g Medium 15
     foreground_color = "#d3d0c8"
     palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
@@ -28,3 +30,23 @@
     use_system_font = False
   [[New Profile]]
     background_image = None
+  [[OceanicMaterial]]
+    background_color = "#1c262b"
+    background_image = None
+    cursor_color = "#b3b8c3"
+    font = Inconsolata-g Medium 15
+    foreground_color = "#c2c8d7"
+    palette = "#000000:#ee2b2a:#40a33f:#ffea2e:#1e80f0:#8800a0:#16afca:#a4a4a4:#777777:#dc5c60:#70be71:#fff163:#54a4f3:#aa4dbc:#42c7da:#ffffff"
+    scrollback_lines = 5000
+    show_titlebar = False
+    use_system_font = False
+  [[SeaShells]]
+    background_color = "#09141b"
+    background_image = None
+    cursor_color = "#fca02f"
+    font = Inconsolata-g Medium 15
+    foreground_color = "#deb88d"
+    palette = "#17384c:#d15123:#027c9b:#fca02f:#1e4950:#68d4f1:#50a3b5:#deb88d:#434b53:#d48678:#628d98:#fdd39f:#1bbcdd:#bbe3ee:#87acb4:#fee4ce"
+    scrollback_lines = 5000
+    show_titlebar = False
+    use_system_font = False
