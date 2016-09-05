@@ -5,7 +5,7 @@
 		"bower_components/"
 	],
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/panda-syntax (SL).tmTheme",
 	"default_line_ending": "unix",
 	"detect_slow_plugins": true,
 	"dpi_scale": 1,
@@ -56,7 +56,7 @@
 	"remember_open_files": false,
 	"scroll_past_end": true,
 	"tab_size": 2,
-	"theme": "Boxy Ocean.sublime-theme",
+	"theme": "Boxy Tomorrow.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
