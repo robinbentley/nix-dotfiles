@@ -23,6 +23,7 @@
 		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-contrib-eslint",
+		"Syntax Highlighting for Sass"
 	]
 }

@@ -17,26 +17,14 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#2d2d2d"
+    background_color = "#1b2b34"
     background_image = None
     cursor_blink = False
     cursor_color = "#d3d0c8"
     cursor_shape = underline
     font = Inconsolata-g Medium 15
-    foreground_color = "#d3d0c8"
-    palette = "#2d2d2d:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#d3d0c8:#747369:#f2777a:#99cc99:#ffcc66:#6699cc:#cc99cc:#66cccc:#f2f0ec"
+    foreground_color = "#cdd3de"
+    palette = "#1b2b34:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#a7adba:#343d46:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#d8dee9"
     scrollback_lines = 5000
     show_titlebar = False
     use_system_font = False
-  [[Panda]]
-    background_color = "#292a2b"
-    background_image = None
-    cursor_shape = underline
-    font = Inconsolata-g Medium 15
-    foreground_color = "#e6e6e6"
-    icon_bell = False
-    palette = "#292a2b:#ff2c6d:#19f9d8:#ffb86c:#45a9f9:#ff75b5:#6fc1ff:#e6e6e6:#555753:#ff2c6d:#19f9d8:#ffcc95:#6fc1ff:#ff9ac1:#6fc1ff:#ffffff"
-    scrollback_infinite = True
-    show_titlebar = False
-    use_system_font = False
-  [[SeaShells]]
