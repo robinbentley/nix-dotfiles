@@ -24,10 +24,12 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Plugin 'chriskempson/base16-vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'mhartington/oceanic-next'
+Plugin 'mxw/vim-jsx'
+Plugin 'pangloss/vim-javascript'
+
 
 filetype plugin indent on                   " turn filetype on again
 
@@ -39,8 +41,10 @@ filetype plugin indent on                   " turn filetype on again
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
-let base16colorspace=256                    " Access colors present in 256 colorspace
-colorscheme base16-eighties
+set t_Co=256
+colorscheme OceanicNext
+hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
+hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -88,11 +92,14 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 " airline
 set laststatus=2                            " Show airline erry time
 set noshowmode                              " Hide default mode
+let airline_theme='oceanicnext'
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1                    " Show dot files in tree
+
+let g:jsx_ext_required = 0
 
 " =====================================================
 " Functions
