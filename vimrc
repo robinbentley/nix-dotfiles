@@ -7,28 +7,26 @@ set nocompatible                            " using vim settings over vi
 set nobackup                                " turn backups off
 set directory=~/.vim/swap/                  " keep swapfiles in thier own dir
 
-filetype off                                " turn filetype off before vundle
+filetype off                                " turn filetype off before plugin install
 
 
 " =====================================================
 " Bundles
 " =====================================================
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+call plug#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
+Plug 'bling/vim-airline'
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree'
+Plug 'kien/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'mhartington/oceanic-next'
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
 
-Plugin 'bling/vim-airline'
-Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kien/ctrlp.vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'editorconfig/editorconfig-vim'
-Plugin 'mhartington/oceanic-next'
-Plugin 'mxw/vim-jsx'
-Plugin 'pangloss/vim-javascript'
+call plug#end()
 
 
 filetype plugin indent on                   " turn filetype on again
@@ -42,7 +40,7 @@ set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
 set t_Co=256
-colorscheme OceanicNext
+silent! colorscheme OceanicNext
 hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
 hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
 
