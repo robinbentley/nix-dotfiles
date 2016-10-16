@@ -5,7 +5,6 @@ colors
 # allow functions in the prompt
 setopt prompt_subst
 
-
 # =====================================================
 # git prompt
 # Shout out to @necolas (https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt)

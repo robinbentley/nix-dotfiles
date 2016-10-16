@@ -46,10 +46,10 @@ hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comm
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
-set tabstop=4                               " fo' spaces
-set shiftwidth=4
+set tabstop=2                               " two spaces
+set shiftwidth=2
 set smartindent
-set softtabstop=4                           " backspace pretends a tab was removed
+set softtabstop=2                           " backspace pretends a tab was removed
 set backspace=indent,eol,start              " backspace over all the things
 
 set splitright                              " open vsplits to the right
