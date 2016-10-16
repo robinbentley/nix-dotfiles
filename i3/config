@@ -17,7 +17,7 @@ set $mod Mod1
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-font pango:DejaVu Sans Mono 8
+font pango:inconsolata-g Medium 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -172,7 +172,7 @@ bindsym $mod+r mode "resize"
 # class                 border  backgr. text    indicator child_border
 client.focused          #1B2B34 #5FB3B3 #1B2B34 #5FB3B3   #5FB3B3
 client.focused_inactive #343D46 #343D46 #65737E #343D46   #343D46
-client.unfocused        #1B2B34 #1B2B34 #65737E #1B2B34   #1B2B34
+client.unfocused        #343D46 #343D46 #65737E #343D46   #343D46
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
@@ -183,10 +183,10 @@ client.background       #1B2B34
 bar {
         colors {
                 background #1B2B34
-                statusline #ff0000
-                separator #ffcc00
+                statusline #D8DEE9
+                separator #5FB3B3
 
-                focused_workspace  #5FB3B3 #5FB3B3 #D8DEE9
+                focused_workspace  #5FB3B3 #5FB3B3 #1B2B34
                 active_workspace   #1B2B34 #1B2B34 #65737E
                 inactive_workspace #1B2B34 #1B2B34 #65737E
                 urgent_workspace   #EC5f67 #EC5f67 #D8DEE9
@@ -196,3 +196,16 @@ bar {
         status_command i3status
         position top
 }
+
+# Pulse Audio controls
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
+
+# Media player controls
+bindsym XF86AudioPlay exec playerctl play
+bindsym XF86AudioPause exec playerctl pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+exec_always xmodmap ~/.xmodmap
