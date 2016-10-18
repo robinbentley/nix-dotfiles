@@ -26,7 +26,7 @@ alias ping='ping -c 5'
 
 # applications
 alias sub='subl'
-alias open='nautilus'
+alias open='nautilus --no-desktop &'
 
 # editing hosts file for virtualhosts/vagrant etc
 alias hosts='sudo vim /etc/hosts'

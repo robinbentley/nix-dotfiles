@@ -173,7 +173,7 @@ bindsym $mod+r mode "resize"
 client.focused          #1B2B34 #5FB3B3 #1B2B34 #5FB3B3   #5FB3B3
 client.focused_inactive #343D46 #343D46 #65737E #343D46   #343D46
 client.unfocused        #343D46 #343D46 #65737E #343D46   #343D46
-client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.urgent           #EC5f67 #EC5f67 #ffffff #EC5f67   #EC5f67
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #1B2B34
@@ -196,6 +196,10 @@ bar {
         status_command i3status
         position top
 }
+
+
+exec --no-startup-id gnome-settings-daemon
+exec --no-startup-id gnome-sound-applet
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
