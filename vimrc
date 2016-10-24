@@ -25,6 +25,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
+Plug 'elixir-lang/vim-elixir'
+Plug 'danro/rename.vim'
 
 call plug#end()
 
@@ -79,6 +81,8 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <C-h> <C-w>h
 
+" clear any search results on esc
+nnoremap <esc> :noh<return><esc>
 
 " =====================================================
 " Bundle settings
