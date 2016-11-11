@@ -27,6 +27,7 @@ Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'elixir-lang/vim-elixir'
 Plug 'danro/rename.vim'
+Plug 'othree/html5.vim'
 
 call plug#end()
 

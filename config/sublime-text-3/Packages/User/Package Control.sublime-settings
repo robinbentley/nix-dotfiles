@@ -17,6 +17,7 @@
 		"Package Control",
 		"Panda Syntax Sublime",
 		"Pretty JSON",
+		"Pug",
 		"Sass",
 		"ScopeHunter",
 		"SideBarEnhancements",
@@ -25,6 +26,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
-		"Syntax Highlighting for Sass"
+		"Syntax Highlighting for Sass",
+		"zz File Icons"
 	]
 }
