@@ -25,9 +25,11 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'mhartington/oceanic-next'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
+Plug 'elzr/vim-json'
 Plug 'elixir-lang/vim-elixir'
 Plug 'danro/rename.vim'
 Plug 'othree/html5.vim'
+Plug 'digitaltoad/vim-pug'
 
 call plug#end()
 

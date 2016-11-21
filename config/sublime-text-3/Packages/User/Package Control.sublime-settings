@@ -10,6 +10,8 @@
 		"Babel",
 		"Boxy Theme",
 		"Color Highlighter",
+		"EditorConfig",
+		"Ember CLI Snippets",
 		"Emmet",
 		"GitGutter-Edge",
 		"GitSavvy",
@@ -27,6 +29,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Syntax Highlighting for Sass",
+		"TOML",
 		"zz File Icons"
 	]
 }
