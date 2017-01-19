@@ -29,6 +29,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"Syntax Highlighting for Sass",
+		"tern_for_sublime",
 		"TOML",
 		"zz File Icons"
 	]
