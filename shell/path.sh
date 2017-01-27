@@ -1,3 +1,8 @@
+export GOPATH=~/.go
+export PATH=$PATH::/usr/bin/go
+export PATH=$PATH:$GOPATH/bin
+
+
 # =====================================================
 # add rbenv and completions
 # =====================================================
