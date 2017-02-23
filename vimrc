@@ -30,6 +30,8 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'danro/rename.vim'
 Plug 'othree/html5.vim'
 Plug 'digitaltoad/vim-pug'
+Plug 'w0rp/ale'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
@@ -40,14 +42,16 @@ filetype plugin indent on                   " turn filetype on again
 " =====================================================
 " Editing
 " =====================================================
-
 set number                                  " show line numbers
 syntax on                                   " syntax highlighting
 set background=dark                         " dark background
 set t_Co=256
 silent! colorscheme OceanicNext
-hi LineNr ctermfg=DarkGrey ctermbg=NONE     " Remove background colour from line numbers
-hi Comment cterm=NONE ctermfg=DarkGrey      " Remove background colour from comments
+
+" Remove background colour from line numbers
+hi LineNr ctermfg=DarkGrey ctermbg=NONE guifg=#65737e guibg=NONE
+" Remove background colour from comments
+hi Comment cterm=NONE ctermfg=DarkGrey guifg=#65737e guibg=NONE
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
@@ -103,8 +107,22 @@ let airline_theme='oceanicnext'
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1                    " Show dot files in tree
+let airline_theme='oceanicnext'
+let g:airline_powerline_fonts = 0
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 
+let g:NERDTreeDirArrowExpandable = '↘'
+let g:NERDTreeDirArrowCollapsible = '↖'
+hi NERDTreeOpenable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#6699CC guibg=NONE
+hi NERDTreeClosable cterm=NONE ctermbg=NONE ctermfg=DarkBlue guifg=#6699CC guibg=NONE
+
+" vim-javascript
+let g:javascript_plugin_flow = 1
+
+" vim-jsx
 let g:jsx_ext_required = 0
+
 
 " =====================================================
 " Functions
