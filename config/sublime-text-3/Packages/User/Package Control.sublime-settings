@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"ApacheConf.tmLanguage",
 		"Babel",
@@ -14,13 +15,16 @@
 		"EditorConfig",
 		"Ember CLI Snippets",
 		"Emmet",
-		"GitGutter-Edge",
+		"GitGutter",
 		"GitSavvy",
+		"GoSublime",
 		"Handlebars",
 		"Package Control",
 		"Panda Syntax Sublime",
 		"Pretty JSON",
 		"Pug",
+		"RSpec",
+		"Rust Enhanced",
 		"Sass",
 		"ScopeHunter",
 		"SideBarEnhancements",
@@ -31,7 +35,6 @@
 		"SublimeLinter-contrib-eslint",
 		"Syntax Highlighting for Sass",
 		"tern_for_sublime",
-		"TOML",
-		"zz File Icons"
+		"TOML"
 	]
 }
