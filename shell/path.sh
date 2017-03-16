@@ -1,7 +1,13 @@
+# =====================================================
+# add GOPATH & GOBIN
+# =====================================================
 export GOPATH=~/.go
+export GOBIN=$GOPATH/bin
 export PATH=$PATH::/usr/bin/go
-export PATH=$PATH:$GOPATH/bin
 
+# =====================================================
+# nvm
+# =====================================================
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 

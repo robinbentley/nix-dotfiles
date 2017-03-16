@@ -22,7 +22,7 @@
     background_image = None
     cursor_blink = False
     cursor_color = "#d3d0c8"
-    cursor_shape = underline
+    cursor_shape = ibeam
     font = Inconsolata-g Medium 14
     foreground_color = "#cdd3de"
     palette = "#1b2b34:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#a7adba:#343d46:#ec5f67:#99c794:#fac863:#6699cc:#c594c5:#5fb3b3:#d8dee9"
