@@ -15,6 +15,7 @@ alias install='sudo apt-get install -y'
 alias autoremove='sudo apt-get clean -y && sudo apt-get autoremove -y && sudo apt-get autoclean -y'
 alias distupgrade='sudo apt-get dist-upgrade -y'
 alias remove='sudo apt-get remove --purge -y'
+alias aptsearch='sudo apt-cache search'
 
 # grep
 alias grep='grep --color=auto'
