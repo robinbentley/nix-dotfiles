@@ -44,3 +44,6 @@ alias djtest="python manage.py test"
 
 # dev servers
 alias pyserve="python -m SimpleHTTPServer 3030"
+
+# docker commands
+alias lsdocker="docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}'"

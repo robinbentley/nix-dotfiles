@@ -2,13 +2,13 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"GitGutter"
 	],
 	"installed_packages":
 	[
 		"A File Icon",
 		"AdvancedNewFile",
 		"Anaconda",
-		"anaconda_rust",
 		"ApacheConf.tmLanguage",
 		"Babel",
 		"Boxy Theme",
@@ -21,21 +21,23 @@
 		"GitSavvy",
 		"GoSublime",
 		"Handlebars",
+		"Hugofy",
+		"JavaScript Completions",
+		"Markdown Preview",
 		"Package Control",
 		"Panda Syntax Sublime",
 		"Pretty JSON",
-		"Pug",
-		"RSpec",
 		"Sass",
 		"ScopeHunter",
 		"SideBarEnhancements",
 		"Status Bar File Size",
-		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jshint",
 		"Syntax Highlighting for Sass",
-		"tern_for_sublime",
-		"TOML"
+		"TOML",
+		"TypeScript",
+		"Vue Syntax Highlight"
 	]
 }
