@@ -47,3 +47,6 @@ alias pyserve="python -m SimpleHTTPServer 3030"
 
 # docker commands
 alias lsdocker="docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}'"
+
+# launch battlescribe roster editor
+alias battlescribe="java -jar ~/Documents/BattleScribe/RosterEditor.jar"
