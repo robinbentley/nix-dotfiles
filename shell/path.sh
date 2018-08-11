@@ -1,7 +1,7 @@
 export CHROME_BIN="chromium-browser"
 
 # =====================================================
-# add GOPATH & GOBIN
+# golang
 # =====================================================
 export GOPATH=~/.go
 export GOBIN=$GOPATH/bin
@@ -14,12 +14,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # =====================================================
-# Adding local node + npm to path to stop sudo problems
-# Move npm global installs to user home
+# pyenv
 # =====================================================
-export N_PREFIX=$HOME/.local
-export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/.npm-global/bin:$PATH
+export PATH="/home/robin/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
