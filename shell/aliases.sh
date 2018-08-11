@@ -26,27 +26,8 @@ alias fgrep='fgrep --color=auto'
 alias ping='ping -c 5'
 
 # applications
-alias sub='subl'
-alias open='nautilus --no-desktop &'
+alias open='thunar'
 alias vim="nvim"
 
 # editing hosts file for virtualhosts/vagrant etc
 alias hosts='sudo vim /etc/hosts'
-
-# django manage commands
-alias djsyncdb="python manage.py syncdb"
-alias djmake="python manage.py makemigrations"
-alias djserve="python manage.py runserver"
-alias djmigrate="python manage.py migrate"
-alias djapp="python manage.py startapp"
-alias djproject="python manage.py startproject"
-alias djtest="python manage.py test"
-
-# dev servers
-alias pyserve="python -m SimpleHTTPServer 3030"
-
-# docker commands
-alias lsdocker="docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Status}}'"
-
-# launch battlescribe roster editor
-alias battlescribe="java -jar ~/Documents/BattleScribe/RosterEditor.jar"
