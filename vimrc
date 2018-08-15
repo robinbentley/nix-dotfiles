@@ -7,8 +7,6 @@ set nocompatible                            " using vim settings over vi
 set nobackup                                " turn backups off
 set directory=~/.vim/swap/                  " keep swapfiles in thier own dir
 
-filetype off                                " turn filetype off before plugin install
-
 
 " =====================================================
 " Bundles
@@ -16,7 +14,8 @@ filetype off                                " turn filetype off before plugin in
 
 call plug#begin()
 
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
@@ -26,17 +25,15 @@ Plug 'mhartington/oceanic-next'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'elzr/vim-json'
-Plug 'elixir-lang/vim-elixir'
 Plug 'danro/rename.vim'
 Plug 'othree/html5.vim'
-Plug 'digitaltoad/vim-pug'
 Plug 'w0rp/ale'
-Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
-
-filetype plugin indent on                   " turn filetype on again
+if (has("termguicolors"))
+  set termguicolors
+endif
 
 
 " =====================================================
@@ -55,10 +52,10 @@ hi Comment cterm=NONE ctermfg=DarkGrey guifg=#65737e guibg=NONE
 
 set nowrap                                  " don't wrap long lines
 set expandtab                               " the tabs are now spaces
-set tabstop=2                               " two spaces
-set shiftwidth=2
+set tabstop=4                               " four spaces
+set shiftwidth=4
 set smartindent
-set softtabstop=2                           " backspace pretends a tab was removed
+set softtabstop=4                           " backspace pretends a tab was removed
 set backspace=indent,eol,start              " backspace over all the things
 
 set splitright                              " open vsplits to the right
@@ -101,16 +98,15 @@ imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 " airline
 set laststatus=2                            " Show airline erry time
 set noshowmode                              " Hide default mode
-let airline_theme='oceanicnext'
+let airline_theme='base16_oceanicnext'
+let g:airline_powerline_fonts = 0
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 
 " nerdtree
 map <leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode=2
 let NERDTreeShowHidden=1                    " Show dot files in tree
-let airline_theme='oceanicnext'
-let g:airline_powerline_fonts = 0
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
 
 let g:NERDTreeDirArrowExpandable = '↘'
 let g:NERDTreeDirArrowCollapsible = '↖'
