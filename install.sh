@@ -8,6 +8,7 @@ mkdir -p /home/robin/.nvm/
 
 # link files from dots
 ln -sfv /home/robin/dotfiles/gemrc /home/robin/.gemrc
+ln -sfv /home/robin/dotfiles/gitignore.global /home/robin/.gitignore.global
 ln -sfv /home/robin/dotfiles/Xmodmap /home/robin/.Xmodmap
 ln -sfv /home/robin/dotfiles/gitconfig /home/robin/.gitconfig
 ln -sfv /home/robin/dotfiles/zshrc /home/robin/.zshrc
