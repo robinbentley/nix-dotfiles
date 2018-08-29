@@ -4,8 +4,7 @@ export CHROME_BIN="chromium-browser"
 # golang
 # =====================================================
 export GOPATH=~/.go
-export GOBIN=$GOPATH/bin
-export PATH=$PATH::/usr/bin/go
+export PATH=$PATH:/usr/local/go/bin
 
 # =====================================================
 # nvm
