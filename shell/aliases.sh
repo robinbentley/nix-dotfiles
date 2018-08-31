@@ -31,3 +31,7 @@ alias vim="nvim"
 
 # editing hosts file for virtualhosts/vagrant etc
 alias hosts='sudo vim /etc/hosts'
+
+# docker
+alias sdocker='sudo docker'
+alias compose='sudo docker-compose'

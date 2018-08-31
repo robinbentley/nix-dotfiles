@@ -31,9 +31,9 @@ Plug 'w0rp/ale'
 
 call plug#end()
 
-if (has("termguicolors"))
-  set termguicolors
-endif
+"if (has("termguicolors"))
+"  set termguicolors
+"endif
 
 
 " =====================================================

@@ -15,9 +15,14 @@ export NVM_DIR="$HOME/.nvm"
 # =====================================================
 # pyenv
 # =====================================================
-export PATH="/home/robin/.pyenv/bin:$PATH"
+export PATH=/home/robin/.pyenv/bin:$PATH
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# =====================================================
+# flutter
+# =====================================================
+export PATH=/home/robin/flutter/flutter/bin:$PATH
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
