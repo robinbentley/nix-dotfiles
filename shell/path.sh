@@ -22,7 +22,7 @@ eval "$(pyenv virtualenv-init -)"
 # =====================================================
 # flutter
 # =====================================================
-export PATH=/home/robin/flutter/flutter/bin:$PATH
+export PATH=/home/robin/Applications/flutter/bin:$PATH
 
 # =====================================================
 # make sure /usr/local/bin is always before /usr/bin
