@@ -1,4 +1,4 @@
-export CHROME_BIN="chromium-browser"
+export CHROME_BIN="chromium"
 
 # =====================================================
 # golang
